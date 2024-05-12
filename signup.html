@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="signupPage">
+      <h3>Let's Get Started</h3>
+      <h3 style="font-size:30px;">Create an account</h3>
+    <div class="signupform">
+      <form id="signupForm" onsubmit="signup()">
+      <input type="text" placeholder="First Name">
+      <input type="text" placeholder="Last Name">
+      <input type="email" placeholder="Email" id="signup_email">
+      <input type="password" placeholder="Password" id="signup_password">
+      <input type="password" placeholder="Confirm Password" id="signup_confirmpassword">
+      <label>
+        <input type="checkbox" id="checkbox" name="myCheckbox">
+        I accept the Terms of Use & Privacy Policy 
+      </label>
+      <button type="submit">SignUp</button>
+      <p style="font-size:20px;">Already have an account?<a href="login.html">Login Here</a></p><br>
+      <!-- <p style="font-size:15px;">Copyright YourCompany.com</p> -->
+    </form>
+
+    </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
